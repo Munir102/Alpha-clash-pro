@@ -24,12 +24,13 @@
             </div>
         </section>
         <!-- play ground -->
-        <section class="play_ground min-h-screen flex flex-col items-center justify-center gap-16">
+        <section class="play_ground min-h-screen flex flex-col items-center justify-center gap-16 hidden">
             <!-- artboard screen-->
             <div class="artboard artboard-horizontal phone-6 border-[20px] border-[#010313CC] rounded-2xl bg-[#FFFFFFB3]">
                 <div class="flex justify-center">
                     <p class="bg-[#2F2941] text-white px-6 pb-2 rounded-b-xl">Don't watch keyboard  while playing...</p>
                 </div>
+                <div class="text-8xl font-bold text-black flex justify-center items-center h-full">Y</div>
             </div>
             <!-- keyboard start -->
             <div class="">
@@ -82,8 +83,15 @@
                   </button>
             </div>
         </section>
-        <section class="score">
-            
+        <section class="score flex justify-center items-center min-h-screen">
+            <div class="text-white flex flex-col items-center space-y-4 bg-[#FFFFFF33] p-5 rounded-2xl">
+                <h1 class="text-7xl">
+                    <span class="font-bold">Score:</span>
+                    <span>14</span>
+                </h1>
+                <button class="btn text-black">Play Again</button>
+                <p>Practice will make you a Pro</p>
+            </div>
         </section>
     </main>
 </body>
