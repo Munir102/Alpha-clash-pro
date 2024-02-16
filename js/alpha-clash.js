@@ -6,6 +6,9 @@ function playContinue() {
     setbackgroundColotById(alphabet);
 }
 
+document.addEventListener('keyup', function handleKeyboardButtonPress(){
+    console.log('Key press');
+})
 
 function play() {
     hideElementById('home-screen');
